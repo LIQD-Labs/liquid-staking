@@ -1,0 +1,51 @@
+# Compiler files
+cache/
+out/
+lib/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*
+/broadcast/*/31337/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# Coverage
+lcov.info
+lcov-filtered.info
+coverage-report/
+coverage/
+
+# Misc
+.DS_Store
+.vscode/
+node_modules/
+tmp/
+
+# User-specific foundry config
+.env
+.env.local
+.env.test
+forge-cache/
+
+# Build info
+build-info/
+*.json.json
+
+# IDE files
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Debug files
+*.log
+*.debug
+
+# Test and gas reports
+gas-report.txt
+test-failures
